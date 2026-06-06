@@ -24,7 +24,7 @@ const translations = {
     about: {
       backgroundTitle: 'Taustani',
       background:
-        'Olen ohjelmistokehittäjä, jota kiinnostavat erityisesti uudet teknologiat ja käytännön projektit.',
+        'Olen ohjelmistokehittäjä, jota kiinnostaa erityisesti uudet teknologiat ja käytännön projektit.',
       currentTitle: 'Tällä hetkellä',
       current:
         'Tällä hetkellä työskentelen IoT-projektin parissa, jossa hyödynnän Raspberry Pi:tä sekä erilaisia lämpötila- ja kosteusantureita. Projektin tavoitteena on kerätä reaaliaikaista dataa saunan olosuhteista ja välittää API-tiedot Wi-fi:n kautta puhelinsovellukseen, joka tehdään Kotlinilla.',
