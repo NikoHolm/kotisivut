@@ -97,7 +97,7 @@ const translations = {
       title: 'Taidot ja teknologiat',
       groups: [
         { category: 'Frontend', items: ['React', 'JS / TS', 'Tailwind CSS', 'Vite'] },
-        { category: 'Backend', items: ['Python', 'PHP', 'REST API:t', 'Express'] },
+        { category: 'Backend', items: ['Python', 'PHP', 'REST API', 'Express'] },
         { category: 'Mobiilikehitys', items: ['Flutter', 'Swift', 'Kotlin (opiskelen)'] },
         { category: 'Tietokannat', items: ['MySQL', 'PostgreSQL', 'NoSQL (Firestore)', 'MongoDB'] },
         { category: 'Pilvi ja työkalut', items: ['Git', 'GitHub', 'Firebase'] },
@@ -217,7 +217,7 @@ const translations = {
       title: 'Skills & technologies',
       groups: [
         { category: 'Frontend', items: ['React', 'JS / TS', 'Tailwind CSS', 'Vite'] },
-        { category: 'Backend', items: ['Python', 'PHP', 'REST APIs', 'Express'] },
+        { category: 'Backend', items: ['Python', 'PHP', 'REST API', 'Express'] },
         { category: 'Mobile development', items: ['Flutter', 'Swift', 'Kotlin (learning)'] },
         { category: 'Databases', items: ['MySQL', 'PostgreSQL', 'NoSQL (Firestore)', 'MongoDB'] },
         { category: 'Cloud & tools', items: ['Git', 'GitHub', 'Firebase'] },
