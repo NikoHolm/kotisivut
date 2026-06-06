@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useI18n } from '../i18n.jsx';
+import { useRevealOnScroll } from '../hooks/useRevealOnScroll.js';
 
 const EMAIL_ADDRESS = 'nikoholm32@gmail.com';
 const GITHUB_URL = 'https://github.com/NikoHolm';
@@ -59,6 +60,7 @@ function ContactCard({ title, value, href, buttonLabel, secondaryAction }) {
 export default function Contact() {
   const { t } = useI18n();
   const [copied, setCopied] = useState(false);
+  const { ref, isVisible } = useRevealOnScroll();
 
   const handleCopyEmail = async () => {
     try {
@@ -71,7 +73,11 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="scroll-mt-28 space-y-8">
+    <section
+      id="contact"
+      ref={ref}
+      className={`scroll-mt-28 space-y-8 reveal-on-scroll ${isVisible ? 'is-visible' : ''}`}
+    >
       <h3 className="border-b border-gray-800 pb-2 text-center text-3xl font-bold">
         {t('contact.title')}
       </h3>

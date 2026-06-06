@@ -1,10 +1,16 @@
 import { useI18n } from '../i18n.jsx';
+import { useRevealOnScroll } from '../hooks/useRevealOnScroll.js';
 
 export default function Hero() {
   const { t } = useI18n();
+  const { ref, isVisible } = useRevealOnScroll();
 
   return (
-    <section id="home" className="scroll-mt-28 space-y-6">
+    <section
+      id="home"
+      ref={ref}
+      className={`scroll-mt-28 space-y-6 reveal-on-scroll ${isVisible ? 'is-visible' : ''}`}
+    >
       <h2 className="max-w-3xl text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
         {t('hero.greeting')} <span className="text-gray-400">Full </span>Stack <span className="text-gray-500">{t('hero.role')}</span>
       </h2>

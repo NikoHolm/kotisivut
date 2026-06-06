@@ -134,8 +134,8 @@ const translations = {
       english: 'EN',
     },
     hero: {
-      greeting: 'Hi, I am',
-      role: 'developer.',
+      greeting: "Hi, I'm a ",
+      role: 'Developer.',
       intro:
         'I recently graduated from Savon Ammattiopisto in Information and Communications Technology as a software developer.',
       projectsCta: 'View my projects',
