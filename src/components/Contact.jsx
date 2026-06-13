@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useI18n } from '../i18n.jsx';
 import { useRevealOnScroll } from '../hooks/useRevealOnScroll.js';
 
-const EMAIL_ADDRESS = 'nikoholm32@gmail.com';
+const EMAIL_ADDRESS = 'info@latec.dev';
 const GITHUB_URL = 'https://github.com/NikoHolm';
 
 async function copyText(text) {
